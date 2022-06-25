@@ -85,6 +85,7 @@ const Contact = () => {
             </li>
             <li>
               <button
+                onClick={sendEmail}
                 className="bg-white text-black  grid justify-items-center  
             relative  md:ml-0   w-full rounded-md sm:py-3 sm:px-6   py-1 text-sm sm:text-base"
               >

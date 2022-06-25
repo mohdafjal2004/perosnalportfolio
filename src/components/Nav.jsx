@@ -39,9 +39,6 @@ const Nav = () => {
                 className="my-2 md:my-0  hover:underline underline-offset-4
                transition-all opacity-100  hover:opacity-70  duration-500    "
                 to="/"
-                spy={true}
-                smooth={true}
-                activeClass="active"
               >
                 Home
               </RouterLink>
@@ -83,8 +80,6 @@ const Nav = () => {
                 About
               </RouterLink>
             </Link>
-
-           
           </ul>
         </div>
       </div>
